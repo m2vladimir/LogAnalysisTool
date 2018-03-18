@@ -86,8 +86,6 @@ public class ConsoleController {
             logger.log(Level.INFO, "Analysis was completed successful. Number of filtered lines: " + results.countFilteredLines());
 
             printResults(results, options);
-            m_printStream.println(EXIT_MESSAGE); //TODO remove after creating .bat file
-            br.readLine();
         } catch (IllegalArgumentException e) {
             ResponseMessage message = ResponseMessage.WRONG_REGULAR_EXPRESSION;
             logger.log(Level.SEVERE, message.toString(), e);
