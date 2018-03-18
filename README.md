@@ -18,5 +18,6 @@ Tool scans directory for log files, read log files and filter log records that c
 input and produce output given below.
 
 Output:
-Single file with all filtered log records
-Print aggregate statistics - Count of records grouped by grouping input parameters
+
+Single file with all filtered log records; 
+Print aggregate statistics - Count of records grouped by grouping input parameters.
