@@ -1,7 +1,11 @@
 @echo off
+SET JAVA_HOME=
 
-CP=
+SET OPTIONS=Djava.util.logging.config.file=config\logging.cfg
 
-OPTIONS=Djava.util.logging.config.file=config\logging.cfg
+SET CP=.
+SET CP=%CP%;lib\*
 
-%JAVA_HOME% -jar -%OPTIONS% -classpath %CP% com.kyriba.parser.application.ConsoleLauncher
+%JAVA_HOME%java -%OPTIONS% -cp %CP% com.kyriba.parser.application.ConsoleLauncher config\config.cfg
+
+pause
