@@ -1,7 +1,8 @@
 # LogAnalysisTool
 Simple tool for logs analysis.
 
-Binary distribution can be found at the [releases](https://github.com/m2vladimir/LogAnalysisTool/releases)
+Binary distribution can be found at the [releases](https://github.com/m2vladimir/LogAnalysisTool/releases). 
+Download binaries and use run.bat script to execute tool.
 
 Input parameters:
 
